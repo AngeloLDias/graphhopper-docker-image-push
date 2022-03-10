@@ -10,7 +10,7 @@ RUN mvn clean install
 
 FROM openjdk:11.0-jre
 
-ENV JAVA_OPTS "-Xmx1g -Xms1g"
+ENV JAVA_OPTS "-Xmx10g -Xms10g"
 
 RUN mkdir -p /data
 
